@@ -1,0 +1,50 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:handing",
+ "creation": "2025-03-03 17:33:45.562912",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "handing",
+  "description"
+ ],
+ "fields": [
+  {
+   "fieldname": "handing",
+   "fieldtype": "Data",
+   "label": "Handing",
+   "unique": 1
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Text",
+   "label": "Description"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-03-03 17:34:26.688881",
+ "modified_by": "Administrator",
+ "module": "mci custom app",
+ "name": "Handing",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
