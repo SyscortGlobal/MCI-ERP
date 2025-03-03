@@ -6,6 +6,17 @@ app_email = "akshay.shaharwale@syscort.com"
 app_license = "mit"
 # required_apps = []
 
+
+fixtures = [
+    {
+        "doctype": "Custom Field",
+        "filters": [["module", "=", "mci custom app"]],
+    }
+]
+
+
+
+
 # Includes in <head>
 # ------------------
 
