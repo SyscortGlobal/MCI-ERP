@@ -1,5 +1,6 @@
 {
  "actions": [],
+ "allow_import": 1,
  "allow_rename": 1,
  "creation": "2025-04-01 11:10:27.494942",
  "doctype": "DocType",
@@ -106,7 +107,7 @@
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2025-04-01 12:33:59.782363",
+ "modified": "2025-04-01 12:44:13.736237",
  "modified_by": "Administrator",
  "module": "mci custom app",
  "name": "Employee Overtime Salary",
