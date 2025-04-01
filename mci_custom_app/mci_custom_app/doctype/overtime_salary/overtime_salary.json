@@ -106,13 +106,15 @@
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2025-04-01 10:41:31.146954",
+ "modified": "2025-04-01 11:01:57.022734",
  "modified_by": "Administrator",
  "module": "mci custom app",
  "name": "Overtime Salary",
  "owner": "Administrator",
  "permissions": [
   {
+   "amend": 1,
+   "cancel": 1,
    "create": 1,
    "delete": 1,
    "email": 1,
