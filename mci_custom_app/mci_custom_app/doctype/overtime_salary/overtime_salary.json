@@ -1,0 +1,132 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-04-01 10:31:53.469528",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_luuc",
+  "amended_from",
+  "employee",
+  "employee_name",
+  "base_salary",
+  "column_break_tuwo",
+  "posting_date",
+  "normal_overtime_section",
+  "normal_ot_hr",
+  "column_break_xkqr",
+  "normal_overtime_amount",
+  "holiday_overtime_section",
+  "holiday_ot_hr",
+  "column_break_jqor",
+  "holiday_overtime_amount"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_luuc",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Overtime Salary",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "employee",
+   "fieldtype": "Link",
+   "label": "Employee",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "employee_name",
+   "fieldtype": "Data",
+   "label": "Employee Name"
+  },
+  {
+   "fieldname": "base_salary",
+   "fieldtype": "Data",
+   "label": "Base Salary"
+  },
+  {
+   "fieldname": "column_break_tuwo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "posting_date",
+   "fieldtype": "Date",
+   "label": "Posting Date"
+  },
+  {
+   "fieldname": "normal_overtime_section",
+   "fieldtype": "Section Break",
+   "label": "Normal Overtime"
+  },
+  {
+   "fieldname": "normal_ot_hr",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Normal OT (hr)",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_xkqr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "normal_overtime_amount",
+   "fieldtype": "Float",
+   "label": "Normal Overtime Amount"
+  },
+  {
+   "fieldname": "holiday_overtime_section",
+   "fieldtype": "Section Break",
+   "label": "Holiday Overtime"
+  },
+  {
+   "fieldname": "holiday_ot_hr",
+   "fieldtype": "Data",
+   "label": "Holiday OT (hr)",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_jqor",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "holiday_overtime_amount",
+   "fieldtype": "Float",
+   "label": "Holiday Overtime Amount"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2025-04-01 10:41:31.146954",
+ "modified_by": "Administrator",
+ "module": "mci custom app",
+ "name": "Overtime Salary",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
