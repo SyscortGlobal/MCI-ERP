@@ -8,7 +8,18 @@
   "section_break_fvaq",
   "amended_from",
   "employee",
-  "employee_name"
+  "employee_name",
+  "base_salary",
+  "column_break_bxnf",
+  "posting_date",
+  "normal_overtime_section",
+  "normal_ot_hr",
+  "column_break_ezas",
+  "normal_overtime_amount",
+  "holiday_overtime_section",
+  "holiday_ot_hr",
+  "column_break_jdku",
+  "holiday_overtime_amount"
  ],
  "fields": [
   {
@@ -36,12 +47,66 @@
    "fieldname": "employee_name",
    "fieldtype": "Data",
    "label": "Employee Name"
+  },
+  {
+   "fieldname": "base_salary",
+   "fieldtype": "Data",
+   "label": "Base Salary"
+  },
+  {
+   "fieldname": "column_break_bxnf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "posting_date",
+   "fieldtype": "Date",
+   "label": "Posting Date"
+  },
+  {
+   "fieldname": "normal_overtime_section",
+   "fieldtype": "Section Break",
+   "label": "Normal Overtime"
+  },
+  {
+   "fieldname": "normal_ot_hr",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Normal OT (hr)",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_ezas",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "normal_overtime_amount",
+   "fieldtype": "Float",
+   "label": "Normal Overtime Amount"
+  },
+  {
+   "fieldname": "holiday_overtime_section",
+   "fieldtype": "Section Break",
+   "label": "Holiday Overtime"
+  },
+  {
+   "fieldname": "holiday_ot_hr",
+   "fieldtype": "Data",
+   "label": "Holiday OT (hr)"
+  },
+  {
+   "fieldname": "column_break_jdku",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "holiday_overtime_amount",
+   "fieldtype": "Float",
+   "label": "Holiday Overtime Amount"
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2025-04-01 11:11:23.079438",
+ "modified": "2025-04-01 11:17:07.370159",
  "modified_by": "Administrator",
  "module": "mci custom app",
  "name": "Employee Overtime Salary",
