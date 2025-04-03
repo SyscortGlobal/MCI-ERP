@@ -52,7 +52,8 @@
   {
    "fieldname": "base_salary",
    "fieldtype": "Data",
-   "label": "Base Salary"
+   "label": "Base Salary",
+   "read_only": 1
   },
   {
    "fieldname": "column_break_bxnf",
@@ -75,7 +76,8 @@
   {
    "fieldname": "normal_overtime_amount",
    "fieldtype": "Float",
-   "label": "Normal Overtime Amount"
+   "label": "Normal Overtime Amount",
+   "read_only": 1
   },
   {
    "fieldname": "holiday_overtime_section",
@@ -89,7 +91,8 @@
   {
    "fieldname": "holiday_overtime_amount",
    "fieldtype": "Float",
-   "label": "Holiday Overtime Amount"
+   "label": "Holiday Overtime Amount",
+   "read_only": 1
   },
   {
    "fieldname": "normal_ot",
@@ -107,7 +110,7 @@
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2025-04-01 12:44:13.736237",
+ "modified": "2025-04-03 10:17:07.718732",
  "modified_by": "Administrator",
  "module": "mci custom app",
  "name": "Employee Overtime Salary",
